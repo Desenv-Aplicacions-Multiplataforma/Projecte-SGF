@@ -52,7 +52,7 @@
         </div>
     </div>
     </div>
-    <body class="bg-gradient-to-t from-purple-300 to-cyan-400">
+    <body class="bg-gradient-to-t from-cyan-400 to-purple-300">
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
@@ -125,8 +125,171 @@
                 </div>
             </div>
 
+            <!-- This example requires Tailwind CSS v2.0+ -->
+            <div class="bg-gradient-to-t from-cyan-400 to-purple-300">
+                <div class="pt-12 px-4 sm:px-6 lg:px-8 lg:pt-20">
+                    <div class="text-center">
+                        <p class="text-3xl font-extrabold text-gray-900 sm:text-4xl lg:text-5xl">El millor preu per a tu, siguis qui siguis</p>
+                        <h2 class="mt-2 text-lg leading-6 font-semibold text-gray-500 uppercase tracking-wider">Preus</h2>
+                        </div>
+                </div>
 
-            <div class="bg-gradient-to-t from-cyan-400 to-purple-300" id="pf">
+                <div class="mt-16 pb-12 lg:mt-20 lg:pb-20">
+                    <div class="relative z-0">
+                        <div class="absolute inset-0 h-5/6 lg:h-2/3"></div>
+                        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                            <div class="relative lg:grid lg:grid-cols-7">
+                                <div class="mx-auto max-w-md lg:mx-0 lg:max-w-none lg:col-start-1 lg:col-end-3 lg:row-start-2 lg:row-end-3">
+                                    <div class="h-full flex flex-col rounded-lg shadow-lg overflow-hidden lg:rounded-none lg:rounded-l-lg">
+                                        <div class="flex-1 flex flex-col">
+                                            <div class="bg-violet-200 px-6 py-10">
+                                                <div>
+                                                    <h3 class="text-center text-2xl font-medium text-gray-900" id="tier-hobby">Individual</h3>
+                                                    <div class="mt-4 flex items-center justify-center">
+                      <span class="px-3 flex items-start text-6xl tracking-tight text-gray-900">
+                        <span class="mt-2 mr-2 text-4xl font-medium"> $ </span>
+                        <span class="font-extrabold"> 3 </span>
+                      </span>
+                                                        <span class="text-xl font-medium text-gray-500"> /mes </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="flex-1 flex flex-col justify-between border-t-2 border-violet-200 p-6 bg-violet-200 sm:p-10 lg:p-6 xl:p-10">
+                                                <ul role="list" class="space-y-4">
+                                                    <li class="flex items-start">
+                                                        <div class="flex-shrink-0">
+                                                            <!-- Heroicon name: outline/check -->
+                                                            <svg class="flex-shrink-0 h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                            </svg>
+                                                        </div>
+                                                        <p class="ml-3 text-base font-medium text-gray-500">Un unic usuari</p>
+                                                    </li>
+
+                                                    <li class="flex items-start">
+                                                        <div class="flex-shrink-0">
+                                                            <!-- Heroicon name: outline/check -->
+                                                            <svg class="flex-shrink-0 h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                            </svg>
+                                                        </div>
+                                                        <p class="ml-3 text-base font-medium text-gray-500">Tres usuaris per als fills</p>
+                                                    </li>
+                                                </ul>
+                                                <div class="mt-8">
+                                                    <div class="rounded-lg shadow-md">
+                                                        <a href="#" class="block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base font-medium text-indigo-600 hover:bg-gray-50" aria-describedby="tier-hobby"> Començar la prova </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mt-10 max-w-lg mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-start-3 lg:col-end-6 lg:row-start-1 lg:row-end-4">
+                                    <div class="relative z-10 rounded-lg shadow-xl">
+                                        <div class="pointer-events-none absolute inset-0 rounded-lg border-2 border-indigo-600" aria-hidden="true"></div>
+                                        <div class="absolute inset-x-0 top-0 transform translate-y-px">
+                                            <div class="flex justify-center transform -translate-y-1/2">
+                                                <span class="inline-flex rounded-full bg-indigo-600 px-4 py-1 text-sm font-semibold tracking-wider uppercase text-white"> Més popular </span>
+                                            </div>
+                                        </div>
+                                        <div class="bg-violet-200 rounded-t-lg px-6 pt-12 pb-10">
+                                            <div>
+                                                <h3 class="text-center text-3xl font-semibold text-gray-900 sm:-mx-6" id="tier-growth">Familiar</h3>
+                                                <div class="mt-4 flex items-center justify-center">
+                    <span class="px-3 flex items-start text-6xl tracking-tight text-gray-900 sm:text-6xl">
+                      <span class="mt-2 mr-2 text-4xl font-medium"> $ </span>
+                      <span class="font-extrabold"> 14 </span>
+                    </span>
+                                                    <span class="text-2xl font-medium text-gray-500"> /mes </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="bg-violet-200 border-t-2 border-violet-200 rounded-b-lg pt-10 pb-8 px-6 bg-gray-50 sm:px-10 sm:py-10">
+                                            <ul role="list" class="space-y-4">
+                                                <li class="flex items-start">
+                                                    <div class="flex-shrink-0">
+                                                        <!-- Heroicon name: outline/check -->
+                                                        <svg class="flex-shrink-0 h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        </svg>
+                                                    </div>
+                                                    <p class="ml-3 text-base font-medium text-gray-500">Dos usuaris per als pares</p>
+                                                </li>
+
+                                                <li class="flex items-start">
+                                                    <div class="flex-shrink-0">
+                                                        <!-- Heroicon name: outline/check -->
+                                                        <svg class="flex-shrink-0 h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                        </svg>
+                                                    </div>
+                                                    <p class="ml-3 text-base font-medium text-gray-500">Fins a 10 fills</p>
+                                                </li>
+                                            </ul>
+                                            <div class="mt-10">
+                                                <div class="rounded-lg shadow-md">
+                                                    <a href="#" class="block w-full text-center rounded-lg border border-transparent bg-indigo-600 px-6 py-4 text-xl leading-6 font-medium text-white hover:bg-indigo-700" aria-describedby="tier-growth"> Començar prova </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mt-10 mx-auto max-w-md lg:m-0 lg:max-w-none lg:col-start-6 lg:col-end-8 lg:row-start-2 lg:row-end-3">
+                                    <div class="h-full flex flex-col rounded-lg shadow-lg overflow-hidden lg:rounded-none lg:rounded-r-lg">
+                                        <div class="flex-1 flex flex-col">
+                                            <div class="bg-violet-200 px-6 py-10">
+                                                <div>
+                                                    <h3 class="text-center text-2xl font-medium text-gray-900" id="tier-scale">Escolar</h3>
+                                                    <div class="mt-4 flex items-center justify-center">
+                      <span class="px-3 flex items-start text-6xl tracking-tight text-gray-900">
+                        <span class="mt-2 mr-2 text-4xl font-medium"> $ </span>
+                        <span class="font-extrabold"> 32 </span>
+                      </span>
+                                                        <span class="text-xl font-medium text-gray-500"> /mes </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="bg-violet-200 flex-1 flex flex-col justify-between border-t-2 border-violet-200 p-6 bg-gray-50 sm:p-10 lg:p-6 xl:p-10">
+                                                <ul role="list" class="space-y-4">
+                                                    <li class="flex items-start">
+                                                        <div class="flex-shrink-0">
+                                                            <!-- Heroicon name: outline/check -->
+                                                            <svg class="flex-shrink-0 h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                            </svg>
+                                                        </div>
+                                                        <p class="ml-3 text-base font-medium text-gray-500">15 usuaris per als tutors</p>
+                                                    </li>
+
+                                                    <li class="flex items-start">
+                                                        <div class="flex-shrink-0">
+                                                            <!-- Heroicon name: outline/check -->
+                                                            <svg class="flex-shrink-0 h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                                            </svg>
+                                                        </div>
+                                                        <p class="ml-3 text-base font-medium text-gray-500">Fins a 300 usuaris per als alumnes</p>
+                                                    </li>
+                                                </ul>
+                                                <div class="mt-8">
+                                                    <div class="rounded-lg shadow-md">
+                                                        <a href="#" class="block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base font-medium text-indigo-600 hover:bg-gray-50" aria-describedby="tier-scale"> Començar prova </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="bg-gradient-to-t from-purple-300 to-cyan-400" id="pf">
                 <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-20 lg:px-8">
                     <div class="lg:grid lg:grid-cols-3 lg:gap-8">
                         <div>
@@ -152,7 +315,7 @@
             </div>
 
             <!-- This example requires Tailwind CSS v2.0+ -->
-            <div class="bg-gradient-to-t from-purple-300 to-cyan-400" id="team">
+            <div class="bg-gradient-to-t from-cyan-400 to-purple-300 " id="team">
                 <div class="max-w-7xl mx-auto py-12 px-4 text-center sm:px-6 lg:px-8 lg:py-24">
                     <div class="space-y-12">
                         <div class="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
@@ -229,7 +392,7 @@
                 </div>
             </div>
             </body>
-    <footer class="bg-gradient-to-t from-cyan-400 to-purple-300">
+    <footer class="bg-gradient-to-t from-purple-300 to-cyan-400">
         <div class="mt-12 border-gray-200 pt-8">
             <p class="text-base text-gray-800 xl:text-center">&copy; 2022 URS DEVELOPERS, Inc. Tots els drets reservats.</p>
         </div>
